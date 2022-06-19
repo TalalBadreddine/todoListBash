@@ -1,4 +1,4 @@
-# TodoList in Bash
+# TodoList Shell
 Student Name: Talal Badreddine
 
 # Code Job:
