@@ -17,7 +17,7 @@ The code is a simple todo list written in shell, where the user is able to check
 5-Use ```todo add <number> <task details>``` to add task to the list at the <number> index. note: replace <task details> with the task
 <br>
 
-# How the code run
+# Code Structure
 ``` 
   function displayList() {
        nl -s "-" .todo_list 
