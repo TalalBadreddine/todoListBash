@@ -101,4 +101,11 @@ The code is a simple todo list written in shell, where the user is able to check
   
 }
 ```
+	
+<br>
+This function work by the number of argument passed in terminal, if arguments number are equal to 1 and equal to list it will display the list.
+	<br><br>
+If arguments number is equal to 2 and first argument is done and the second is less or equal to the number of task, then it will remove the  n - 1  task to a temp file , and the  numberOfTasks - n - 1  lines from bottom to this file at the bottom of it, and replace the data of .todo_list with this temp file data, and then delete the temp file.
+	<br><br>
+Else if the fisrt argument is equal to add , then it will take the from the 3 to the end of arguments (as task), (n is the position of the task to add),then it will remove the n - 1 tasks from top to a temp file, then adding the current task, and at the end it will add the rest of the tasks at the bottom, and replace the current file content with the temp file content , and delete it.
                     
